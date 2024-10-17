@@ -25,6 +25,7 @@ This is an ASP.NET Core Web API for managing employees, providing CRUD operation
     "DefaultConnection": "Server=localhost\\SQLEXPRESS01; Initial Catalog=Employees; Integrated Security=True; MultipleActiveResultSets=True;"
   }
 ### 2. Apply migrations and seed the database
+Update-Database
 
 ## JWT Authentication Configuration
 configure the JWT issuer and key for token generation. These settings are located in appsettings.json
@@ -40,6 +41,8 @@ configure the JWT issuer and key for token generation. These settings are locate
 
 # BlogPlatform
 
+This is a simple a blog platform using ASP.NET Core MVC and Razor Pages.
+
 ## Database Configuration
 
 ### 1.Open appsettings.json and configure your SQL Server connection string:
@@ -50,9 +53,16 @@ configure the JWT issuer and key for token generation. These settings are locate
 
 ### 2.Apply Migrations
 
+Update-Database
+  
+## Run the application
+
 # GitHubApiClient
 
 A simple and lightweight GitHub API client built with C#. This client allows users to interact with the GitHub API, enabling functionalities like retrieving repositories, managing issues, and fetching user details.
+  
+## Run the application
+
 
 
 
