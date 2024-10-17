@@ -9,7 +9,6 @@ This solution contains three projects:Employee Management API, BlogPlatform and 
   ### 1. Clone the Repository
 
  git clone https://github.com/loreta123/EmployeeManagement.git
- cd EmployeeManagement
 
 To succeessfully configure and run all the applications:
 
