@@ -1,0 +1,21 @@
+﻿@model BlogPlatform.Models.BlogPost
+
+@{
+    ViewData["Title"] = "Blog Post Details";
+}
+
+<h2>@Model.Title</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Title: @Model.Title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Post Date: @Model.PostDate.ToShortDateString()</h6>
+        <p class="card-text">Content:</p>
+        <p class="card-text">@Model.Content</p>
+    </div>
+</div>
+
+<div>
+    <a href="@Url.Action("Edit", "Blog", new { id = Model.Id })" class="btn btn-warning">Edit</a>
+    <a href="@Url.Action("Index", "Blog")" class="btn btn-secondary">Back to List</a>
+</div>
